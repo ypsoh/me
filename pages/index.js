@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import ProfilePicture from '../components/profile_picture'
+import MyCalendar from '../components/my_calendar'
 
 const Home = () => (
   <div>
@@ -23,7 +24,9 @@ const Home = () => (
           Research interests: Dimensionality reduction, tensor decomposition, latent feature extraction
         </p>
       </div>
-
+  <div className="row">
+  <MyCalendar />
+  </div>
   {/*
       <div className='row'>
         <a href='https://nextjs.org/docs' className='card'>
