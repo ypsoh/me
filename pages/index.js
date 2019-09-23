@@ -18,6 +18,12 @@ const Home = () => (
         Computer and Information Science, University of Oregon
       </p>
 
+      <div className='row'>
+        <p className="description">
+          Research interests: Dimensionality reduction, tensor decomposition, latent feature extraction
+        </p>
+      </div>
+
   {/*
       <div className='row'>
         <a href='https://nextjs.org/docs' className='card'>
